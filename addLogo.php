@@ -107,4 +107,18 @@ update_post_meta(
 	)
 );
 
+//Get carousel categories
+/*
+	$logo_terms = get_terms(array(
+		'taxonomy' => 'sp_logo_carousel_cat',
+		'hide_empty' => false,
+	));
+	
+	$check_logo_term = term_exists(array('participant'), 'sp_logo_carousel_cat');
+*/
+
+// Update logo post category
+$logo_cat_id = get_term_by('name', 'participant', 'sp_logo_carousel_cat');
+$logo_category = wp_set_post_terms($logo_post_id, array($logo_cat_id->term_id), 'sp_logo_carousel_cat');
+
 ?>
