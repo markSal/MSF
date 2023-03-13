@@ -105,6 +105,7 @@ $padding = 20;
 // Set logo source
 $img_src = 'logo.png';
 
+// TODO: Check if image is actually a PNG
 // Check if PNG is transparent
 if(isPngTransparent($img_src)){
 	
