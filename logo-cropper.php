@@ -97,7 +97,7 @@ $im = new Imagick();
 $bg_color = 'transparent';
 $whiteLogo = false;
 
-// Define crop/resize settings
+// Set crop/resize dimenions and added padding
 $resize_w = 600;
 $resize_h = 400;
 $padding = 20;
