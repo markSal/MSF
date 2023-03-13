@@ -109,12 +109,13 @@ if(isPngTransparent($img_src)){
 	$color_brightness_threshold = 230;
 	$color_brightness = getImgColorBrightness($img_src);
 	if($color_brightness > $color_brightness_threshold){
-		// If only white add black background
+
+		// If white logo on transparent background, set background color to black
 		$bg_color = 'black';
 		$whiteLogo = true;
 	}
 
-	// If transparent, read into imagick
+	// Read file into imagick
 	$im->readImage($img_src);
 	
 }else{
