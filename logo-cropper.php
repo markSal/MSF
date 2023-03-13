@@ -157,6 +157,7 @@ if($whiteLogo){
 	
 	// Add border to pad image
 	$im->borderImage($bg_color, $padding, $padding);
+	
 }else{
 	
 	// Resize image and offset for transparent padding
