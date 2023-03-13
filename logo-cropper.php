@@ -123,7 +123,6 @@ if(isPngTransparent($img_src)){
 	$im->readImage($img_src);
 	
 }else{
-	
 	// If not transparent, check for and remove any extra whitespace, then read into imagick
 	$img = imagecreatefrompng($img_src);
 
@@ -159,7 +158,6 @@ if($whiteLogo){
 	$im->borderImage($bg_color, $padding, $padding);
 	
 }else{
-	
 	// Resize image and offset for transparent padding
 	$im->thumbnailImage(($resize_w - $padding), ($resize_h - $padding), true, true);
 }
