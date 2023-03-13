@@ -92,11 +92,15 @@ function getImgColorBrightness($img_src){
 
 // Create a new imagick object
 $im = new Imagick();
+
+// Define defaults
 $bg_color = 'transparent';
 $whiteLogo = false;
-$padding = 20;
+
+// Define crop/resize settings
 $resize_w = 600;
 $resize_h = 400;
+$padding = 20;
 
 // Check if PNG is transparent
 if(isPngTransparent($img_src)){
