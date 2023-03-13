@@ -102,6 +102,9 @@ $resize_w = 600;
 $resize_h = 400;
 $padding = 20;
 
+// Set logo source
+$img_src = 'logo.png';
+
 // Check if PNG is transparent
 if(isPngTransparent($img_src)){
 	
