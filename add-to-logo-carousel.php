@@ -26,9 +26,7 @@ $image_data = file_get_contents($image_url);
 *
 *	RESIZE LOGO TO 600x400
 *
-*	AND	
-*
-*	CONVERT SVG TO PNG IF APPLICABLE
+*	SEE logo-cropper.php	
 *
 */
 
