@@ -169,7 +169,7 @@ $update_company = Company::find($causeway_id);
 
 // Set updated values
 $update_company->custom = [
-    1 => $orgTypeIDs, 				  // 1 = Type of Organization
+    1 => $orgTypeIDs,           // 1 = Type of Organization
     2 => $orgDomainOfInterests, // 2 = Domains of Interest
     3 => $org_type_other,       // 3 = Type of Organization Other
     4 => '',                    // 4 = Domains of Interest Other
