@@ -111,7 +111,7 @@ $company_config = [
   'address1'      => $org_address,
   'address2'      => $org_address2,
   'city'          => $org_city,
-  'country' 			=> $org_country,
+   'country'      => $org_country,
   'postal_code'   => $org_zip,
   'state'         => $org_state,
   'join_date'     => $org_join_date,
@@ -142,7 +142,7 @@ $company_config = [
   'domains' => [
     $org_email_domain
   ],
-  'orgTypes' 			    => $org_types,
+  'orgTypes'          => $org_types,
   'domainsOfInterest' => $org_domains_of_interest,
   'orgSize'           => $org_size
 ];
